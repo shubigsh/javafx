@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="482.0" prefWidth="786.0" style="-fx-background-color: black;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.NewuserController">
+   <children>
+   <TextField fx:id="userID" layoutX="56.0" layoutY="35.0" prefHeight="27.0" prefWidth="216.0" promptText="Enter User ID" style="-fx-background-color: WHITE; -fx-border-color: #8B8000; -fx-border width: 0px 0px 2px 0px;" text="10" />
+      <TextField fx:id="user" layoutX="56.0" layoutY="90.0" prefHeight="27.0" prefWidth="216.0" promptText="Enter UserName" style="-fx-background-color: WHITE; -fx-border-color: #8B8000; -fx-border width: 0px 0px 2px 0px;" text="SINDHUJA" />
+      <TextField fx:id="first" layoutX="50.0" layoutY="160.0" prefHeight="27.0" prefWidth="216.0" promptText="Enter First Name" style="-fx-background-color: WHITE; -fx-border-color: #8B8000;" text="SINDHUJA" />
+      <TextField fx:id="last" layoutX="50.0" layoutY="227.0" prefHeight="27.0" prefWidth="216.0" promptText="Enter Last Name" style="-fx-background-color: WHITE; -fx-border-color: #8B8000;" />
+      <TextField fx:id="mobile" layoutX="50.0" layoutY="301.0" prefHeight="27.0" prefWidth="216.0" promptText="Enter Mobile Number" style="-fx-background-color: WHITE; -fx-border-color: #8B8000;" />
+      <TextField fx:id="email" layoutX="50.0" layoutY="374.0" prefHeight="27.0" prefWidth="216.0" promptText="Enter Email" style="-fx-background-color: WHITE; -fx-border-color: #8B8000;" />
+      <TextField fx:id="street" layoutX="426.0" layoutY="22.0" prefHeight="27.0" prefWidth="216.0" promptText="Enter Street" style="-fx-background-color: WHITE; -fx-border-color: #8B8000;" />
+      <TextField fx:id="city" layoutX="426.0" layoutY="90.0" prefHeight="27.0" prefWidth="216.0" promptText="Enter City" style="-fx-background-color: WHITE; -fx-border-color: #8B8000;" />
+      <TextField fx:id="license" layoutX="426.0" layoutY="227.0" prefHeight="27.0" prefWidth="216.0" promptText="Enter License Number" style="-fx-background-color: WHITE; -fx-border-color: #8B8000;" />
+      <TextField fx:id="country" layoutX="426.0" layoutY="160.0" prefHeight="27.0" prefWidth="216.0" promptText="Enter Country" style="-fx-background-color: WHITE; -fx-border-color: #8B8000;" />
+      <PasswordField fx:id="pass" layoutX="426.0" layoutY="301.0" prefHeight="27.0" prefWidth="216.0" promptText="Enter Password" style="-fx-background-color: WHITE; -fx-border-color: #8B8000;" />
+      <Button fx:id="registers" layoutX="377.0" layoutY="402.0" mnemonicParsing="false" onAction="#clickRegister" prefHeight="38.0" prefWidth="244.0" style="-fx-background-color: #8B8000; -fx-border-color: #8B8000;" text="Register" />
+     
+   </children>
+</AnchorPane>
